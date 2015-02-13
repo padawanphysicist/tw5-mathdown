@@ -2,7 +2,7 @@
 
 I have modified the official Markdown plugin of [TiddlyWiki5](http://tiddlywiki.com) to use [markdown-it](https://github.com/markdown-it/markdown-it) as Markdown parser, use [MathML](http://en.wikipedia.org/wiki/MathML) for (La)TeX equations (using [TeXZilla](https://github.com/fred-wang/TeXZilla) converter). This is an *unofficial* plugin, although I think it follows the general policy of TiddlyWiki.
 
-As this plugin is in an **EXPERIMENTAL** stage, it may have some (lots of) bugs. If you are brave enough to give it a try, don't hesitate reporting bugs and raising issues on the project page on [GitHub](https://github.com/padawanphysicist/TW5-Mathdown) or [GitLab](https://gitlab.com/padawanphysicist/tw5-mathdown).
+As this plugin is in an **EXPERIMENTAL** stage, it may have some (lots of) bugs. If you are brave enough to give it a try, don't hesitate reporting bugs and raising issues on the project page on [GitHub](https://github.com/padawanphysicist/tw5-mathdown) or [GitLab](https://gitlab.com/padawanphysicist/tw5-mathdown).
 
 ## Why another Markdown plugin?
 
@@ -33,20 +33,6 @@ In particular, [markdown-it](https://github.com/markdown-it/markdown-it) parser 
 Not all browsers have support for MathML. As far as I know, [Firefox](https://www.mozilla.org/en-US/firefox/new/) has the most complete native support.
 
 In those cases, it is still possible using this plugin by installing [MathJax plugin for TiddlyWiki5](http://mathjax-tw5.kantorsite.net/), so that MathML rendering will be done by MathJax, and not the browser. I tested this approach on Firefox, Chrome and Opera, and it worked quite well.
-
-## Presets
-
-As described by the authors of remarkable parser,
-
-> Remarkable offers some "presets" as a convenience to quickly enable/disable active syntax rules and options for common use cases."
-
-The presets can be activated by a configuration tiddler; current options are
-
-| Preset     | Description                   |
-| ---------- | ----------------------------- |
-| Full       | Enable all available rules    |
-| CommonMark | Enable strict CommonMark mode |
-
 
 ## Creating WikiLinks
 
