@@ -1,0 +1,5 @@
+title: $:/config/markdown/macros
+
+\dif	0	\text{d}
+\sin	0	\text{sen}
+\vetor	1	\vec{#1}

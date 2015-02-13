@@ -1,0 +1,20 @@
+{
+	"tiddlers": [
+		{
+			"file": "markdown-it.js",
+			"fields": {
+				"type": "application/javascript",
+				"title": "$:/plugins/padawanphysicist/tw5-mathdown/markdown-it.js",
+				"module-type": "library"
+			}
+		},
+		{
+			"file": "TeXZilla.js",
+			"fields": {
+				"type": "application/javascript",
+				"title": "$:/plugins/padawanphysicist/tw5-mathdown/TeXZilla.js",
+				"module-type": "library"
+			}
+		}
+	]
+}
